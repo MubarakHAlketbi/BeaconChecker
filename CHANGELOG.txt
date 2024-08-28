@@ -1,0 +1,18 @@
+Version 0.2 (2023-MM-DD)
+- Major UI Overhaul: Replaced basic frame with AceGUI for a more polished look
+- Added tabbed interface (Weekly Quests, Weekly Elites, World Quests)
+- Implemented scrollable content for better handling of long lists
+- Enhanced Quest Data: Updated and expanded quest information
+- Added achievement tracking for each quest
+- Implemented minimap button for quick access
+- Added options panel with minimap button toggle
+- Improved TomTom Integration
+- Refactored code to use AceAddon-3.0 framework
+- Implemented event-based updates for real-time quest status changes
+- Added color coding for completed/incomplete quests and achievements
+- Implemented escape key functionality to close the main window
+- Added frame clamping to prevent UI from moving off-screen
+- Added placeholder text for upcoming Weekly Elites and World Quests tabs
+- Fixed issues with unknown quest locations
+- Improved error handling and nil checks
+- Optimized frame creation and updates for smoother performance

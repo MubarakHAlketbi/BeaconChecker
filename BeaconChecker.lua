@@ -4,7 +4,7 @@ local AceAddon = LibStub("AceAddon-3.0")
 local AceConfig = LibStub("AceConfig-3.0")
 local AceConfigDialog = LibStub("AceConfigDialog-3.0")
 local AceDB = LibStub("AceDB-3.0")
-
+local ADDON_VERSION = "@project-version@"
 local BeaconChecker = AceAddon:NewAddon(addonName, "AceConsole-3.0", "AceEvent-3.0")
 
 -- Quest Data
