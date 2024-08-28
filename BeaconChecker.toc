@@ -1,0 +1,24 @@
+## Interface: 110002
+## Title: Beacon Checker
+## Notes: Tracks repeatable quests for the Hollowfall Arathi faction in The War Within expansion. Helps with "Beacon of Hope" achievement progress.
+## Author: Sato942_
+## Version: 0.2
+## X-Category: Quests, Achievements
+## X-Faction: Hollowfall Arathi
+## OptionalDeps: TomTom
+## SavedVariables: BeaconCheckerDB
+
+# Libraries
+Libs\LibStub\LibStub.lua
+Libs\CallbackHandler-1.0\CallbackHandler-1.0.xml
+Libs\LibDataBroker-1.1\LibDataBroker-1.1.lua
+Libs\LibDBIcon-1.0\LibDBIcon-1.0.lua
+Libs\AceAddon-3.0\AceAddon-3.0.xml
+Libs\AceEvent-3.0\AceEvent-3.0.xml
+Libs\AceDB-3.0\AceDB-3.0.xml
+Libs\AceConsole-3.0\AceConsole-3.0.xml
+Libs\AceGUI-3.0\AceGUI-3.0.xml
+Libs\AceConfig-3.0\AceConfig-3.0.xml
+
+# Main addon file
+BeaconChecker.lua
